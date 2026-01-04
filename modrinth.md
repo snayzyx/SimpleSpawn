@@ -42,7 +42,7 @@ spawn:
   pitch: 0.0
 ```
 
-### Customizable Messages
+### Messages
 All messages support Minecraft color codes using the `&` character and include placeholder support:
 
 ```yaml
@@ -53,7 +53,8 @@ messages:
   spawn-set: '&aSpawn set at your current location!'
 ```
 
-### Teleportation Settings
+### Teleportation
+
 ```yaml
 teleportation:
   delay: 3                          # Seconds before teleportation
@@ -67,7 +68,8 @@ teleportation:
   countdown-sound-type: BLOCK_NOTE_BLOCK_PLING
 ```
 
-### General Settings
+### Settings
+
 ```yaml
 settings:
   show-coordinates: true            # Show coordinates when setting spawn
@@ -76,14 +78,14 @@ settings:
   round-to-block-center: true
 ```
 
-## 🔊 Sound Types
+## 🔊 Sounds
 
-**Teleportation Sounds:**
+**Teleportation:**
 - `ENTITY_ENDERMAN_TELEPORT` (default)
 - `ENTITY_PLAYER_TELEPORT`
 - `ENTITY_ENDER_PEARL`
 
-**Countdown Sounds:**
+**Countdown:**
 - `BLOCK_NOTE_BLOCK_PLING` (default)
 - `BLOCK_NOTE_BLOCK_HAT`
 - `BLOCK_NOTE_BLOCK_BELL`
@@ -97,7 +99,7 @@ settings:
 | `spawn.set` | Allow setting spawn location | Operators |
 | `spawn.reload` | Allow reloading configuration | Operators |
 
-## 📝 Example Configuration
+## 📝 Example
 
 ```yaml
 spawn:
@@ -138,41 +140,45 @@ settings:
 5. Customize the configuration as needed
 6. Use `/spawn reload` to reload the configuration
 
-## 💡 Usage Tips
+## 💡 Tips
 
-### Custom Welcome Message
+### Custom Message
+
 ```yaml
 teleport-countdown: '&b[&fSpawn&b] &7In &6{time}s &7you will go to spawn...'
 ```
 
 ### Disable Sounds
+
 ```yaml
 play-sound: false
 play-countdown-sound: false
 ```
 
-### Longer Teleportation Delay
+### Longer Delay
+
 ```yaml
 delay: 10  # 10 seconds
 ```
 
-### Remove Cooldown
+### No Cooldown
+
 ```yaml
 cooldown: 0
 ```
 
 ## 🔧 Troubleshooting
 
-**Players Can't Teleport**
+**Teleport Issues**
 - Check if they have the `spawn.use` permission
 - Verify the spawn world exists
 - Ensure the spawn location is set (run `/spawn set`)
 
-**Invalid Sound Warnings**
-- Ensure sound names are correct (see Sound Types section)
+**Sound Errors**
+- Ensure sound names are correct (see Sounds section)
 - Use uppercase sound names with underscores
 
-**Coordinates Not Rounding Correctly**
+**Rounding Issues**
 - Set `round-coordinates: true`
 - Set `round-to-block-center: true` for center alignment
 
