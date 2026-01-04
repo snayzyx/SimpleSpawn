@@ -10,7 +10,7 @@ A lightweight and fully customizable Spawn Plugin for Minecraft Spigot servers (
 - **Smart Coordinate Rounding** - Automatically round to block centers
 - **First Join Teleportation** - Optional teleport for new players
 - **Flexible Messages** - Fully customizable with color codes
-- **Auto Backup** - Automatic config backups on reload
+- **Auto Backup** - Automatic backups on reload
 
 ## 📋 Commands
 
