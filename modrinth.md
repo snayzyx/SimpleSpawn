@@ -5,7 +5,7 @@ A lightweight and fully customizable Spawn Plugin for Minecraft Spigot servers (
 ## 🌟 Features
 
 - **Easy Spawn Management** - Set and manage spawn points with simple commands
-z- **Teleportation** - Configure delay, cooldown, cancel-on-move
+- **Teleportation** - Configure delay, cooldown, cancel-on-move
 - **Sound Effects** - Custom teleport and countdown sounds
 - **Rounding** - Auto round to block centers
 - **First Join** - Teleport new players
