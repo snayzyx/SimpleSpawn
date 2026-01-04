@@ -1,4 +1,4 @@
-# SimpleSpawn Plugin
+# SimplesSpawn Plugin
 
 A lightweight and fully customizable Spawn Plugin for Minecraft Spigot servers. Easily manage player spawn points with sound effects, configurable delays, and comprehensive customization options.
 
@@ -17,11 +17,10 @@ A lightweight and fully customizable Spawn Plugin for Minecraft Spigot servers. 
 - **Placeholder Support**: Dynamic message placeholders like `{time}` for countdowns and cooldowns
 
 ## Installation 🚀
-
-1. Download the latest release from the [Releases](https://github.com/skymord/Spawn/releases) page
-2. Place `Spawn-1.0-SNAPSHOT.jar` in your server's `plugins` folder
+1. Download the latest release from the [Releases](https://github.com/snayzyx/SimpleSpawn/releases) page
+2. Place `SimplesSpawn-1.0-SNAPSHOT.jar` in your server's `plugins` folder
 3. Restart your server
-4. The plugin will generate a default `config.yml` file in the `plugins/simplesSpawn` directory
+4. The plugin will generate a default `config.yml` file in the `plugins/SimplesSpawn` directory
 5. Customize the configuration file as needed (see [Configuration](#configuration) section)
 6. Use `/spawn reload` to reload the configuration
 
