@@ -5,12 +5,12 @@ A lightweight and fully customizable Spawn Plugin for Minecraft Spigot servers (
 ## 🌟 Features
 
 - **Easy Spawn Management** - Set and manage spawn points with simple commands
-- **Customizable Teleportation** - Configure delay, cooldown, and cancel-on-move behavior
-- **Sound Effects** - Custom sounds on teleportation and countdown (each second)
-- **Smart Coordinate Rounding** - Automatically round to block centers
-- **First Join Teleportation** - Optional teleport for new players
-- **Flexible Messages** - Fully customizable with color codes
-- **Auto Backup** - Automatic backups on reload
+z- **Teleportation** - Configure delay, cooldown, cancel-on-move
+- **Sound Effects** - Custom teleport and countdown sounds
+- **Rounding** - Auto round to block centers
+- **First Join** - Teleport new players
+- **Custom Messages** - Color codes and placeholders
+- **Backups** - Auto config backups
 
 ## 📋 Commands
 
