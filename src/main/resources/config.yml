@@ -1,0 +1,61 @@
+# ================================
+# SimplesSpawn Plugin Configuration
+# ================================
+
+# Spawn location configuration
+spawn:
+  world: world
+  x: 0.5
+  y: 64.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+
+# Messages configuration
+# Available placeholders:
+# {time} - Displays the remaining time (used in countdown and cooldown messages)
+messages:
+  teleport-success: '&aTeleported to spawn successfully!'
+  teleport-countdown: '&eYou will be teleported in &6{time} &eseconds...'
+  teleport-cancelled: '&cTeleportation cancelled because you moved!'
+  cooldown-active: '&cYou must wait &6{time} &cseconds before teleporting again!'
+  spawn-set: '&aSpawn set at your current location!'
+  config-reloaded: '&aConfiguration reloaded successfully!'
+  no-permission: '&cYou don''t have permission to use this command!'
+  spawn-not-configured: '&cSpawn is not configured! Contact an administrator.'
+  world-not-found: '&cSpawn world not found!'
+  must-be-player: '&cThis command must be executed by a player!'
+  invalid-usage: '&cUsage: /spawn [set|reload]'
+  backup-created: '&7A backup was automatically created.'
+
+# Teleportation settings
+teleportation:
+  # Delay before teleporting (in seconds)
+  delay: 3
+  # Cancel teleportation if player moves
+  cancel-on-move: true
+  # Cooldown between teleportations (in seconds)
+  cooldown: 10
+  # Teleport player on first join
+  teleport-on-first-join: true
+  # Teleport player on every join
+  teleport-on-join: false
+  # Play sound when teleporting
+  play-sound: true
+  # Sound to play on teleportation (Available sounds: ENTITY_ENDERMAN_TELEPORT, etc.)
+  sound-type: ENTITY_ENDERMAN_TELEPORT
+  # Play countdown sound every second
+  play-countdown-sound: true
+  # Countdown sound (Available sounds: BLOCK_NOTE_BLOCK_PLING, BLOCK_NOTE_BLOCK_HAT, etc.)
+  countdown-sound-type: BLOCK_NOTE_BLOCK_PLING
+
+# General settings
+settings:
+  # Show coordinates when using /spawn set
+  show-coordinates: true
+  # Create automatic backups when reloading config
+  auto-backup: true
+  # Round coordinates when setting spawn
+  round-coordinates: true
+  # Round to block center (0.5 offset) - set to false for simple rounding
+  round-to-block-center: true

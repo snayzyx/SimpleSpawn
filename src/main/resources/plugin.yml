@@ -1,0 +1,21 @@
+name: simplesSpawn
+version: '1.0-SNAPSHOT'
+main: fr.skymord.spawn.main
+api-version: '1.21'
+
+
+commands:
+  spawn:
+    description: Spawn command
+    usage: /spawn <set|reload>
+
+permissions:
+  spawn.use:
+    description: Allows you to teleport to spawn
+    default: true
+  spawn.set:
+    description: Allows you to define the spawn
+    default: op
+  spawn.reload:
+    description: Allows you to reload the configuration
+    default: op

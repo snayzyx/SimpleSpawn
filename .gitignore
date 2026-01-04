@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+out/
+*.jar
+*.war
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.classpath
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backups
+*.backup
+*.bak
+config.yml.backup
+
+# Logs
+logs/
+*.log
+
+# Minecraft
+plugins/
+server.properties
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.asc
+pom.xml.releaseBackup
+release.properties
+
