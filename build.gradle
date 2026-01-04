@@ -6,6 +6,10 @@ plugins {
 group = 'fr.skymord'
 version = '1.0-SNAPSHOT'
 
+jar {
+    archiveBaseName = 'SimplesSpawn'
+}
+
 repositories {
     mavenCentral()
     maven {

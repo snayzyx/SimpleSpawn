@@ -1,6 +1,6 @@
-name: simplesSpawn
+name: SimplesSpawn
 version: '1.0-SNAPSHOT'
-main: fr.skymord.spawn.main
+main: fr.skymord.spawn.SimplesSpawn
 api-version: '1.21'
 
 

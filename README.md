@@ -1,4 +1,4 @@
-# SimplesSpawn Plugin
+# SimpleSpawn Plugin
 
 A lightweight and fully customizable Spawn Plugin for Minecraft Spigot servers. Easily manage player spawn points with sound effects, configurable delays, and comprehensive customization options.
 
@@ -44,7 +44,7 @@ Reloads the plugin configuration and creates a backup of the previous config.
 
 ## Configuration ⚙️
 
-The plugin is fully customizable through the `config.yml` file located in `plugins/simplesSpawn/`.
+The plugin is fully customizable through the `config.yml` file located in `plugins/SimplesSpawn/`.
 
 ### Spawn Location
 ```yaml
